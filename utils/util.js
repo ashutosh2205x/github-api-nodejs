@@ -7,7 +7,7 @@ const generateOptions = (_path) => {
     headers: {
       "User-Agent": constants.user_agent,
     },
-    OAUth: process.env.GITHUB_ACCESS_TOKEN,
+    OAUth: process.env.ACCESS_TOKEN,
   });
 };
 
